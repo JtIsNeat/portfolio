@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 10px 10%;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar_text {
+    margin: auto 20px;
+    justify-content: left;
+}
+
+.navbar_links {
+    padding: 0;
+}
+
+.navbar_links li{
+    display: inline-block;
+    margin: 3px 15px;
+    padding: 2px 5px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.navbar_links li:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#welcome_text {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+/*****FOOTER STYLING******/
+footer {
+    /* background-color: rgb(44, 116, 150); */
+    text-align: center;
+}
+
+.icon {
+    margin: 0px 10px;
+    width: 20px;
+}
+
+footer li {
+    margin-bottom: 18px;
+}
+
+footer div {
+    /* background-color: rgb(143, 57, 57); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    max-width: 400px;    
+}
+
+.contact_links {
+    margin: 0;
+    padding: 0;
+}
+
+.contact_links li {
+    display: flex;
+}
+
+.blank-div {
+    height: 500px;
+}
+
+
+/* TABLET DEVICE */
+/* @media (max-width: 760px) {
+
+    #navbar_text {
+        text-align: center;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .navbar_links {
+        margin: auto;
+    }
+} */
+
+/* PHONE DEVICE */
+@media (max-width: 800px) {
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        /* background-color: rgb(37, 103, 141); */
+    }
+
+    #navbar_text {
+        margin-top: 15px;
+        /* background-color: rgb(182, 89, 89); */
+    }
+
+    .navbar_links {
+        /* background-color: rgb(88, 172, 88); */
+        display: flex;
+    }
+
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Flexbox visualizer</title>
+    <link rel="stylesheet" href="../css/flexbox-style.css">
+</head>
+<body>
+
+    <h1>FLEXBOX VISUALIZATION</h1>
+
+    <div class="container">
+        
+        <div class="options">
+
+            <button id="change-axis">change main axis</button>
+            <p id="main-axis-status">main axis set to "row" (horizontal alignment)</p>
+
+            <button id="add-div-button">add object</button>
+            <button id="rm-div-button">remove object</button>
+
+            <h2>justify-content</h2>
+            <div class="justify-content-options">
+                <button class=justify-content-option-button id="justify-content-flex-start">flex-start</button>
+                <button class=justify-content-option-button id="justify-content-flex-end">flex-end</button>
+                <button class=justify-content-option-button id="justify-content-center">center</button>
+                <br>
+                <button class=justify-content-option-button id="justify-content-space-between">space-between</button>
+                <button class=justify-content-option-button id="justify-content-space-around">space-around</button>
+                <button class=justify-content-option-button id="justify-content-space-evenly">space-evenly</button>
+
+            </div>
+            <hr>
+
+            <h2>align-items</h2>
+            <div class="align-items-options">
+                <button class=align-items-option-button id="align-items-flex-start">flex-start</button>
+                <button class=align-items-option-button id="align-items-flex-end">flex-end</button>
+                <button class=align-items-option-button id="align-items-center">center</button>
+                <button class=align-items-option-button id="align-items-baseline">baseline</button>
+
+            </div>
+            <hr>
+
+            <h2>flex-wrap property</h2>
+            <div class="flex-wrap-options">
+                <button class="flex-wrap-option-button" id="flex-wrap-nowrap">nowrap</button>
+                <button class="flex-wrap-option-button" id="flex-wrap-wrap">wrap</button>
+            </div>
+            
+            <h2>align-content</h2>
+            <button class="align-content-option-button" id="align-content-flex-start">flex-start</button>
+            <button class="align-content-option-button" id="align-content-flex-end">flex-end</button>
+            <button class="align-content-option-button" id="align-content-center">center</button>
+            <br>
+            <button class="align-content-option-button" id="align-content-space-between">space-between</button>
+            <button class="align-content-option-button" id="align-content-space-around">space-around</button>
+            <button class="align-content-option-button" id="align-content-space-evenly">space-evenly</button>
+        </div>
+
+
+
+        <div class="flexbox-container" id="flexbox-container-1">
+            <div class="flexbox-element" id="flexbox-element-1">obj 1</div>
+            <div class="flexbox-element" id="flexbox-element-2">obj 2</div>
+            <div class="flexbox-element" id="flexbox-element-3">obj 3</div>
+        </div>
+
+
+
+    </div>
+
+    <script src="../js/event_listeners.js"></script>
+</body>
+</html>
